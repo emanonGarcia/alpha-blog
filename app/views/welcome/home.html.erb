@@ -1,0 +1,14 @@
+<style>
+body {
+color: black;
+}
+</style>
+<h1>Homepage<h1>
+<ol>
+  <li class="this" onClick=sayHi('fuck')><%= link_to 'About', welcome_about_path %></li>
+</ol>
+<script>
+  function sayHi(msg='Hello World') {
+    alert(msg)
+  }
+</script>
